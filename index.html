@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Creative Project 2</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href= "https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <div class= "header-container">
+    <h1>DnD Consultant</h1>
+  </div>
+
+  <div class = "ability-header">
+    <div class = "ability-section-1">
+      <h2>Ability Scores</h2>
+      <div class = "form-container">
+        <form>
+        <label>Which Ability Score Do You Want to Learn About?</label>
+        <input id="attributeInput" type="text"></input><br/>
+        <input id="attributeSubmit" type="submit" value="Submit"></input>
+        </form>
+      </div>
+    </div>
+    <img class = "ability-graphic" src="/images/5e-ability-scores.jpg">
+
+  </div>
+
+  <div class="attribute-container">
+
+    <div id="attributeResults"></div>
+
+  </div>
+
+  <div class="divider div-transparent div-dot"></div>
+
+  <div class = skills-container>
+    <img src="/images/5e-skills-by-attribute.jpg">
+    <div class = "form-container-2">
+      <form class= "skill-form">
+      <label>Enter the Skill You Want to Learn About</label>
+      <p>Be sure to use all lowercase</p>
+      <input id="skillInput" type="text"></input><br/>
+      <input id="skillSubmit" type="submit" value="Submit"></input>
+      </form>
+    </div>
+  </div>
+
+  <div id="skillsResults"></div>
+
+  <div class="divider div-transparent div-dot"></div>
+
+  <div class = race-container>
+    <div class= race-section-1>
+      <label>Enter the DnD Race that Interests You</label>
+      <input id="raceInput" type="text"></input><br/>
+      <input id="raceSubmit" type="submit" value="Submit"></input>
+    </div>
+    <img class = race-graphic src="/images/5e-races.jpg">
+  </div>
+
+  <div id="raceResults"></div>
+
+  <div class = "footer-container">
+    <div class='footer'>
+      <a href="https://github.com/Grayhaym/creativeproject_2" class = repo-link>Link to My Repository</a>
+    </div>
+  </div>
+
+  <script text="type/javascript" src="/script.js"></script>
+</body>
+
+</html>
